@@ -16,8 +16,8 @@ import java.util.List;
 @Service
 @Slf4j
 public class ExternalBookService {
-    // TODO: completar llamada a la API externa (ver bien todo el proyecto...)
-    
+    // TOD: completar llamada a la API externa (ver bien tod el proyecto...)
+
     private final RestTemplate restTemplate;
     
     @Value("${external.api.books.url}")
